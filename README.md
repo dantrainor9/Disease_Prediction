@@ -5,6 +5,11 @@ The goal for this project is to develop a classification model that can predict 
 Exploratory data analysis found some anomalies in this dataset that may limit generalization in a clinical setting.
 
 ![Abdominal_pain_graph](https://user-images.githubusercontent.com/91214731/152226391-1f189cfc-422d-4c1b-89f5-55489a0c157b.png)
+
 Abdominal pain shows up in a multitude of prognoses, this is to be expected as this is a common symptom for relatively benign prognoses as well as those that require more serious attention.
 
-XGBClassifier and LightGBM both prove to be highly effective with over 99% accuracy. LightGBM was chosen as a production model due to more efficient computation. 
+![Blood_in_sputum_graph](https://user-images.githubusercontent.com/91214731/152226708-b23a5867-366f-49f4-966b-d9d7781932fd.png)
+
+An example of the aforementioned anomalies: this graph displays that the only prognosis investigated for which blood in sputum was present was tuberculosis. It is also possible to see blood in sputum in cases of severe pneumonia as well, which indicates that this model hay have issues with producing accurate results when run on unseen data.
+
+XGBClassifier and LightGBM both prove to be highly effective with over 99% accuracy. LightGBM was chosen as a production model due to more efficient computation. Model retains accuracy even when run on unseen (test) data.
