@@ -4,11 +4,11 @@ The goal for this project is to develop a classification model that can predict 
 
 Exploratory data analysis found some anomalies in this dataset that may limit generalization in a clinical setting.
 
-![Abdominal_pain_graph](https://user-images.githubusercontent.com/91214731/152226391-1f189cfc-422d-4c1b-89f5-55489a0c157b.png)
+![image](https://user-images.githubusercontent.com/91214731/155022881-b789a203-d85d-4543-9a10-d998f0cb13fd.png)
 
 Abdominal pain shows up in a multitude of prognoses, this is to be expected as this is a common symptom for relatively benign prognoses as well as those that require more serious attention.
 
-![Blood_in_sputum_graph](https://user-images.githubusercontent.com/91214731/152226708-b23a5867-366f-49f4-966b-d9d7781932fd.png)
+![image](https://user-images.githubusercontent.com/91214731/155023149-0b6a6fa7-2c2a-4dd2-b297-e4ec8bbb8cee.png)
 
 An example of the aforementioned anomalies: this graph displays that the only prognosis investigated for which blood in sputum was present was tuberculosis. It is also possible to see blood in sputum in cases of severe pneumonia as well, which indicates that this model hay have issues with producing accurate results when run on unseen data.
 
