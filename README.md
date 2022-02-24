@@ -19,4 +19,4 @@ Another such anomaly, the only condition in which any patient had any bruising a
 
 XGBClassifier and LightGBM both prove to be highly effective with over 99% accuracy. LightGBM was chosen as a production model due to more efficient computation. Model retains accuracy even when run on unseen (test) data. Model has an f1 score of 1, with precision and recall also rated as 1, meaning it can perfectly predict what each prognosis is correctly.
 
-Due to this model's high accuracy as determined with multiple metrics, it it ready for production. However, due to the considerations involving the dataset, incoming data will require significant preparation for this model. In order to build a less intensive model, more real-world data is needed.
+Due to this model's high accuracy as determined with multiple metrics, it it ready for production. However, due to the considerations involving the dataset, incoming data will require significant preparation for this model to perform accurately. In order to build a less work-intensive model, more real-world data is needed for training.
