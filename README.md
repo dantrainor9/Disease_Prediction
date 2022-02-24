@@ -13,6 +13,10 @@ Abdominal pain shows up in a multitude of prognoses, this is to be expected as t
 
 An example of the aforementioned anomalies: this graph displays that the only prognosis investigated for which blood in sputum was present was tuberculosis. It is also possible to see blood in sputum in cases of severe pneumonia as well, which indicates that this model hay have issues with producing accurate results when run on unseen data.
 
+![image](https://user-images.githubusercontent.com/91214731/155581297-5af32544-29d8-4553-8af3-a474a6ead73d.png)
+
+Another such anomaly, the only condition in which any patient had any bruising at all is varicose veins. The odds of no other patients having bruising, especially with conditions such as AIDS and conditions correlating to age such as arthritis being considered, are extremely low. 
+
 XGBClassifier and LightGBM both prove to be highly effective with over 99% accuracy. LightGBM was chosen as a production model due to more efficient computation. Model retains accuracy even when run on unseen (test) data. Model has an f1 score of 1, with precision and recall also rated as 1, meaning it can perfectly predict what each prognosis is correctly.
 
 Due to this model's high accuracy as determined with multiple metrics, it it ready for production. However, due to the considerations involving the dataset, incoming data will require significant preparation for this model. In order to build a less intensive model, more real-world data is needed.
