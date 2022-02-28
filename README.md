@@ -15,7 +15,7 @@ An example of the aforementioned anomalies: this graph displays that the only pr
 
 ![image](https://user-images.githubusercontent.com/91214731/155581297-5af32544-29d8-4553-8af3-a474a6ead73d.png)
 
-Another such anomaly, the only condition in which any patient had any bruising at all is varicose veins. The odds of no other patients having bruising, especially with conditions such as AIDS and conditions correlating to age such as arthritis being considered, are extremely low. 
+Another such anomaly, the only condition in which a patient had bruising is varicose veins. The odds of no other patients having bruising, especially with conditions correlating to bruising being considered, are extremely low. 
 
 XGBClassifier and LightGBM both prove to be highly effective with over 99% accuracy. LightGBM was chosen as a production model due to more efficient computation. Model retains accuracy even when run on unseen (test) data. Model has an f1 score of 1, with precision and recall also rated as 1, meaning it can perfectly predict what each prognosis is correctly.
 
