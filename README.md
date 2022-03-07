@@ -1,7 +1,7 @@
 # Disease_Prediction
 This project uses data from Kaggle. Source: https://www.kaggle.com/kaushil268/disease-prediction-using-machine-learning. 
 
-The goal for this project is to develop a model that can classify prognosis based on presence or absence of symptoms. Each column represents a symptom, each row represents a participant in the study. 132 features were examined with 41 possible prognoses, making this a multiclass classification problem. 
+The goal for this project is to develop a model that can classify prognoses based on presence or absence of symptoms. Each feature column represents a symptom, each row represents a participant in the study. 132 features were examined with 41 possible prognoses, making this a multiclass classification problem. 
 
 ![image](https://user-images.githubusercontent.com/91214731/155022881-b789a203-d85d-4543-9a10-d998f0cb13fd.png)
 
